@@ -1,0 +1,139 @@
+* {
+	font-family: "circe", sans-serif;
+  	margin: 0;
+  	padding: 0;
+  	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+	color: #5b82d9;
+}
+button {
+	margin: 10px;
+}
+.main {
+	display: flex;
+}
+.image__main {
+	padding: 5% 0 0 5%;
+}
+
+.main__side-img__sub {
+	width: 150px;
+	display: flex;
+	flex-direction: column;
+	padding: 20% 0 0 30%;
+	transition: transform 0.5s;
+}
+.main__side-img__sub:hover{
+	transform: scale(1.5);
+}
+.scroll {
+	border: solid 1px;
+	border-color: #b8b4b4;
+	background-color: #e7e6e6;
+	margin-top: 60px;
+	margin-left: 80px; 
+}
+.main__side-img {
+	height: 600px;
+	width: 200px;
+	overflow: hidden;
+}
+.info__name {
+		font-size: 30px;
+		font-weight: bold;
+}
+.info {
+	padding: 8% 0 0 5%;
+	display: flex; 
+}
+.info__hrefs {
+	font-size: 14px;
+	padding: 0 20px 0 0;
+}
+.info__price {
+	display: inline-flex; 
+	font-size: 20px;
+	margin-top: 60px;
+	color: #a4a5a4;
+}
+.info__price__promo {
+	display: inline-flex; 
+	font-size: 20px;
+	margin-top: 60px;
+	padding: 0 0 0 40px;
+}
+.info__figure {
+	width: 400px;
+	height: 70px;
+	margin-top: 20px;
+	background-color: #ebebeb;
+}
+.info__upper {
+	display: inline; 
+	flex-direction: row;
+	padding: 15px 5px 0 10px;
+}
+.info__lower {
+	display: inline; 
+	flex-direction: row;
+	padding: 15px 0 0 10px;
+}
+.button {
+	margin-top: 60px;
+	display: inline-flex;
+  	vertical-align: middle;
+  	text-align: center;
+	background-color: white;
+	white-space: nowrap;
+
+}
+.btn__buy {
+	padding: 10px;
+	border: none;
+	background-color: #6867f6;
+	color: white;
+	width: 200px;
+}
+.btn__favorites {
+	padding: 10px;
+	background-color: white;
+	border: solid 1px;
+	border-color: #dfdddd;
+	width: 200px;
+}
+.counter {
+	padding: 15px 0 0 5px;
+	display: inline;
+	width: 30px;
+}
+.counter__btn {
+	width: 15px;
+	border: solid 1px;
+	border-radius: 5%;
+	background-color: #e7e6e6;
+}
+.counter__value {
+	width: 30px;
+}
+.descryption {
+	margin-top: 40px;
+	display: flex;
+	color: #7a7373;
+}
+.share {
+	margin-top: 40px;
+	color: #7a7373;
+	display: inline-flex;
+}
+.share__img {
+	display: flex;
+	margin-left: 10px;
+}
+.share__123 {
+	margin-left: 10px;
+	width: 50px;
+	background-color: #dfdddd;
+	text-align: center;
+}

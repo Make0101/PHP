@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("/fonts/PressStart2P-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.cat {
+	display: grid;
+	width: 50%;
+	height: 400px;
+	column-gap: 25px;
+	row-gap: 25px;
+	grid-template-rows: 50% 50%;
+  	grid-template-columns: 50% 50%;
+	margin-left: 25%;
+	justify-content: center;
+}
+.cat__style {
+	background-color: black;
+	flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.cat__hrefs {
+	display: flex;
+	justify-content: center;
+	font-family: 'PressStart2P-Regular';
+	color: #edebe8;
+	text-decoration: none;
+	font-size: 20px;
+	transition: transform 0.5s;
+}
+.cat__hrefs:hover {
+	transform: scale(1.1);
+}

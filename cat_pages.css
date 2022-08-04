@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "PressStart2P-Regular";
+  src: url("/fonts/PressStart2P-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Oswald-Regular";
+  src: url("/fonts/Oswald-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.upper {
+display: flex;
+flex-direction: row;
+}
+.back__btn {
+	font-family: 'PressStart2P-Regular';
+	font-size: 15px;
+	width: 100px;
+	height: 50px;
+	border-style: none;
+	background-color: #6867f6;
+}
+.about {
+	background-color: black;
+	color: white;
+	font-family: 'Oswald-Regular';
+	text-align: center;
+	display: flex;
+	width: 100%;
+	margin-left: 5%;
+	margin-right: 5%;
+	justify-content: center;
+	flex-direction: column;
+}
+.cat__style {
+	color: black;
+	display: flex;
+	flex-direction: row;
+	margin-top: 60px;
+	margin-left: 80px;
+}
+.cat__info {
+	display: flex;
+	flex-direction: column;
+	margin-top: 60px;
+	margin-left: 80px;
+}
+.name {
+	background-color: black;
+	color: white;
+	font-family: 'Oswald-Regular';
+}
+.price {
+	margin-top: 5px;
+	font-family: 'Oswald-Regular';
+}
+.price_discount {
+	margin-top: 5px;
+	font-family: 'Oswald-Regular';
+}
+.price_promo {
+	margin-top: 5px;
+	font-family: 'Oswald-Regular';
+}
